@@ -6,7 +6,7 @@
 /*   By: agutierr <agutierr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/12 21:10:10 by agutierr          #+#    #+#             */
-/*   Updated: 2020/01/11 16:47:31 by agutierr         ###   ########.fr       */
+/*   Updated: 2020/01/17 13:34:17 by agutierr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,18 +64,18 @@ char				*ft_strjoin(char *s1, char *s2) //CONCATENAMOS DOS STRING CON MALLOC
 	if (!(dest = (char *)malloc(sizeof(char) * (size1 + size2 + 1))))
 		return (0);
 	i = 0;
-	while (i < size1)
+	dest[size1+size2+1] = '\0';
+	while (i <= size1)
 	{
 		dest[i] = s1[i];
 		i++;
 	}
 	i = 0;
-	while (i < size2)
+	while (i <= size2)
 	{
 		dest[size1 + i] = s2[i];
 		i++;
 	}
-	dest[size1 + size2] = 0;
 	return (dest);
 }
 

@@ -6,7 +6,7 @@
 /*   By: agutierr <agutierr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/12 21:10:47 by agutierr          #+#    #+#             */
-/*   Updated: 2020/01/11 17:21:42 by agutierr         ###   ########.fr       */
+/*   Updated: 2020/01/17 17:23:38 by agutierr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define GET_NEXT_LINE_H
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE (2000)
+#  define BUFFER_SIZE (9999)
 # endif
 
 #include <unistd.h>
