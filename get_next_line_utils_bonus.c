@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: agutierr <agutierr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/24 11:26:41 by agutierr          #+#    #+#             */
-/*   Updated: 2020/01/24 11:53:18 by agutierr         ###   ########.fr       */
+/*   Created: 2020/01/22 18:20:13 by agutierr          #+#    #+#             */
+/*   Updated: 2020/01/24 13:15:14 by agutierr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t				ft_strlen(char *s)
 {

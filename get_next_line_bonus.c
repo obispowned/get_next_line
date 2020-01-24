@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: agutierr <agutierr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/24 11:26:00 by agutierr          #+#    #+#             */
-/*   Updated: 2020/01/24 11:27:38 by agutierr         ###   ########.fr       */
+/*   Created: 2020/01/22 16:10:21 by agutierr          #+#    #+#             */
+/*   Updated: 2020/01/24 13:14:50 by agutierr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 void				destroy(char **str)
 {
